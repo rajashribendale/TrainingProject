@@ -40,6 +40,8 @@ public class UserServiceImpl implements UserService {
 
 			ud.setLogin(l);
 			session.save(ud);
+			l.setUserdata(ud);
+			session.save(l);
 			session.beginTransaction().commit();
 			System.out.println("Data inserted");
 		}
