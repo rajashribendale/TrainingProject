@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+			<beans>
+			<bean id="u" class="com.model.University">
+			<property name="uid" value="11"></property>
+			<property name="uname" value="A"></property>
+			<property name="college" ref="c"></property>
+			</bean>
+			
+			<bean id="c" class ="com.model.College">
+			<property name="cid" value="22"></property>
+			<property name="name" value="B"></property>
+			</bean>
+			</beans>

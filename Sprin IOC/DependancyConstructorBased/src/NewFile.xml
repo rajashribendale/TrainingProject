@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+	<beans>
+	<bean id="e" class="com.model.Employee">
+	<constructor-arg value="123">
+	</constructor-arg>
+	<constructor-arg value="rajshri"></constructor-arg>
+	<constructor-arg ref="c"></constructor-arg>
+	
+		</bean>
+		
+		
+		<bean id="c" class="com.model.Company">
+		<constructor-arg value="33"></constructor-arg>
+		<constructor-arg value="ABc"> </constructor-arg>
+		
+		
+		
+		
+		</bean>
+	</beans>

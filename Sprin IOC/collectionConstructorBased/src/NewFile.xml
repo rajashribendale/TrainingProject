@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+			
+			<beans>
+			     <bean id="a" class="com.model.Amazon">
+			       <constructor-arg value="12" index="0"/>
+			       <constructor-arg>
+			         <list>
+			           <value>Laptop</value>
+			           <value>Mobile</value>
+			         </list>
+			       </constructor-arg>
+			       <constructor-arg>
+			          <set>
+			            <value>Ghost in Wire</value>
+			           <value>Alchemist</value>
+			          </set>
+			       </constructor-arg>
+			       <constructor-arg>
+			         <map>
+			            <entry key="1" value="Shoes"></entry>
+			            <entry key="2" value="Casuals"></entry>
+			         </map>
+			       </constructor-arg>
+			     </bean>
+			</beans>
