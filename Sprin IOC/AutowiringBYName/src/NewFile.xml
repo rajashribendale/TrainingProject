@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+			<beans>
+			<bean id="c" class="com.byName.customer" autowire="byName">
+			<property name="id" value="11"></property>
+			<property name="name" value="A"></property>
+			</bean>
+			
+			
+			<bean id="adress" class="com.byName.Adress">
+			<property name="aid" value="12"></property>
+			<property name="aname" value="Pune"></property>
+			</bean>
+			
+			<bean id="adress1" class="com.byName.Adress">
+			<property name="aid" value="13"></property>
+			<property name="aname" value="Pimpri"></property>
+			
+			</bean>
+			
+			</beans>

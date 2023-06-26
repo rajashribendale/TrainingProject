@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			<beans>
+			<bean id="s" class="com.model.shopkeeper">
+			<property name="id" value="22"></property>
+			<property name="name" value="A"></property>
+			<property name="clothes">
+			<list>
+			<value>Shirts</value>
+			<value>t-shirt</value>
+			</list>
+			
+			</property>
+			<property name="brands">
+			<set>
+			<value>Apple</value>
+			<value>blackberry</value>
+			</set>
+			</property>
+			<property name="map">
+			<map>
+			<entry key="11" value="java sE6"></entry>
+			<entry key="12 " value="java sE8"> </entry>
+			
+			</map>
+			
+			
+			</property>
+			
+				
+			</bean>
+			
+			
+			
+			
+			
+			</beans>

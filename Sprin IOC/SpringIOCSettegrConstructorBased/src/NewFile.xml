@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+
+<bean id="s" class="com.model.Student">
+<property name="sid"  value="11"></property>
+<property name="sname" value="Rajshri"></property>
+<property name="sadress" value="pune"></property>
+</bean>
+
+ <bean id="c" class="com.model.College">
+  
+    <constructor-arg value="Pqrs"></constructor-arg>
+    <constructor-arg value="Pune"></constructor-arg>
+      <constructor-arg value="123" index="0"></constructor-arg>
+  </bean>
+</beans>
